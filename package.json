@@ -1,0 +1,32 @@
+{
+  "name": "bluepers",
+  "displayName": "bluepers",
+  "description": "blue blue blue",
+  "version": "0.0.2",
+  "publisher":"Ruvaaaaaa",
+  "icon":"icon.png",
+  "keywords": [
+    "blue theme",
+    "blue",
+    "dark blue"
+  ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/Ruvaaa/bleupers-blue"
+  },
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "bleupers blue",
+        "uiTheme": "hc-black",
+        "path": "./themes/bleupers blue-color-theme.json"
+      }
+    ]
+  }
+}
